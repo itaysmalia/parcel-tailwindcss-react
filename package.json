@@ -1,0 +1,25 @@
+{
+	"name": "react-tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"add-tailwind-css": "tailwindcss build -o src/styles/tailwind.css",
+		"start-parcel": "parcel src/index.html",
+		"start": "npm run add-tailwind-css && npm run start-parcel"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"parcel": "^1.12.4",
+		"postcss-modules": "^3.2.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"tailwindcss": "^1.8.10"
+	},
+	"devDependencies": {
+		"sass": "^1.26.11"
+	}
+}
