@@ -8,7 +8,8 @@
 		"start-parcel": "parcel src/index.html",
 		"build-parcel": "parcel build src/index.html",
 		"start": "npm run add-tailwind-css && npm run start-parcel",
-		"build": "npm run add-tailwind-css && npm run build-parcel"
+		"build": "npm run add-tailwind-css && npm run build-parcel",
+		"test": "echo 'no tests yet'"
 	},
 	"keywords": [],
 	"author": "",
