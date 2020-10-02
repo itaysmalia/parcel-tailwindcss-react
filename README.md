@@ -1,0 +1,1 @@
+# parcel-tailwindcss-react
